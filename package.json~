@@ -1,0 +1,20 @@
+{
+  "name": "mydeck",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "deck.gl": "^4.0.6",
+    "luma.gl": "^3.0.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "export MAPBOX_ACCESS_TOKEN=pk.eyJ1IjoidnZlbGFyZGUiLCJhIjoiY2lzMW10aW5rMDA3aDJ5bzdvN25jaXFwYiJ9.gWQR2LQ1vXnuPx2bH_zq2g && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
