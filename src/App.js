@@ -36,6 +36,8 @@ class App extends Component {
                     layers={[
                         new LineLayer({
                             id: 'line-layer',
+                            getColor: x => [255, 0, 0, 255],
+                            strokeWidth: 5,
                             data
                         })
                     ]}
